@@ -22,7 +22,7 @@ public class MiDialogo extends AppCompatDialogFragment {
         dialog.setPositiveButton("Ejecutar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getActivity(),"un dialog",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"ejecutando...",Toast.LENGTH_SHORT).show();
             }
         });//el null este es el listener!
         dialog.setNegativeButton("Cancelar", null);
